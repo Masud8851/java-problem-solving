@@ -5,3 +5,5 @@ console.log(name + "," + "I did it!");
 let fName = "Masudur";
 let lName = "Rahman";
 console.log(fName + " " + lName);
+
+console.log(name + " " + "loves himself");
