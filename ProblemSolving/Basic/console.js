@@ -6,4 +6,4 @@ let fName = "Masudur";
 let lName = "Rahman";
 console.log(fName + " " + lName);
 
-console.log(name + " " + "loves himself");
+console.log(name + " " + "loves himself!");
