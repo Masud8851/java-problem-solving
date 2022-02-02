@@ -12,6 +12,7 @@
 - Variable and Data Type
 - JS Reserved words
 - Concatination
+- typeof
 
 <b>In JavaScript you cannot use these reserved words as variables, labels, or function names:</b>
 
