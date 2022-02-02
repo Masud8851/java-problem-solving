@@ -15,12 +15,12 @@
 <b>In JavaScript you cannot use these reserved words as variables, labels, or function names:</b>
 
 ```
-abstract ,	        arguments,	        await*,	            boolean,
-break,	                byte,   	        case,	            catch,
-char,   	        class*, 	        const,	            continue,
-debugger,	        default,   	        delete,	            do,
-double, 	        else,   	        enum*,	            eval,
-export*,                extends*,	        false,	            final,
+abstract ,	        arguments,	        await*,	                boolean,
+break,	                byte,   	        case,	                catch,
+char,   	        class*, 	        const,	                continue,
+debugger,	        default,   	        delete,	                do,
+double, 	        else,   	        enum*,	                eval,
+export*,                extends*,	        false,	                final,
 finally,	        float,  	        for,	                function,
 goto,   	        if,     	        implements, 	        import*,
 in,             	instanceof, 	        int,        	        interface,
