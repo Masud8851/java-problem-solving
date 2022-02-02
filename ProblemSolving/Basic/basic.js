@@ -10,3 +10,7 @@ console.log(a + " is a boy");
 var preName = "Musfique";
 preName = "Tamim";
 console.log(preName);
+
+// type check
+var something;
+console.log(typeof something);

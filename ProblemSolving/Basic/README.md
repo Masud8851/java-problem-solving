@@ -14,6 +14,7 @@
 - Concatination
 - typeof
 - Data change of a variable
+- Comment
 
 <b>In JavaScript you cannot use these reserved words as variables, labels, or function names:</b>
 
@@ -70,4 +71,11 @@ volatile,       	while,      	        with,       	        yield
     <li>Array</li>
     <li>Object</li>
     <li>Function</li>
+</ol>
+
+<b> Comment </b>
+
+<ol>
+<li> Single Line Comment `//single line comment` </li>
+<li> Multiple Line Comment `/* Multiple line  <br> comment*/ `</li>
 </ol>
