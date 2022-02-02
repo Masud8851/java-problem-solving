@@ -77,5 +77,5 @@ volatile,       	while,      	        with,       	        yield
 
 <ol>
 <li> Single Line Comment  </li>
-<li> Multiple Line Comment </li>
+<li> Multi-Line Comment </li>
 </ol>
