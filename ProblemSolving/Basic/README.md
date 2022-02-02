@@ -11,7 +11,7 @@
 - Chrome Developer Console
 - Variable and Data Type
 - JS Reserved words
-- Concatination
+- Concatenation
 - typeof
 - Data change of a variable
 - Comment
