@@ -32,3 +32,19 @@ throw,          	throws,     	        transient,  	        true,
 try,            	typeof,     	        var,        	        void,
 volatile,       	while,      	        with,       	        yield
 ```
+
+<div >
+    <b>2 types of Data</b>
+    <ol>
+    <li>Primitive Data Type</li>
+    <li>Non-primitive Data Type</li>
+    </ol>
+</div>
+
+<b> In Primitive Data Type, value directly stored. </b>
+
+```
+    var aNumber = 10;
+    var text = 'Masud';
+    var isTrue = true;
+```
