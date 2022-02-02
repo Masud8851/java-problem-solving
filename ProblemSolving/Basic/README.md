@@ -61,7 +61,7 @@ volatile,       	while,      	        with,       	        yield
     var something = null;
 ```
 
-<b> `Note:` boolean value true/false but not to be `TRUE/FALSE` or `True/False` </b>
+<b> `Note:` boolean value must be `true/false` but not to be `TRUE/FALSE` or `True/False` </b>
 
 <b> But in non-primitive Data Type, value not directly stored. It save the reference of value. So these types of data called Object. They have properties. </b>
 
