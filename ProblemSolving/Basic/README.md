@@ -48,3 +48,11 @@ volatile,       	while,      	        with,       	        yield
     var text = 'Masud';
     var isTrue = true;
 ```
+
+<b> But in non-primitive Data Type, value not directly stored. It save the reference of value. So these types of data called Object. They have properties. </b>
+
+<ol>
+    <li>Array</li>
+    <li>Object</li>
+    <li>Function</li>
+</ol>
