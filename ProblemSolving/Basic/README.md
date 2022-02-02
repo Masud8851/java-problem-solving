@@ -45,10 +45,20 @@ volatile,       	while,      	        with,       	        yield
 
 <b> In Primitive Data Type, value directly stored. </b>
 
+<ol>
+    <li>Number</li>
+    <li>String</li>
+    <li>Boolean</li>
+    <li>undefined</li>
+    <li>null</li>
+</ol>
+
 ```
-    var aNumber = 10;
-    var text = 'Masud';
-    var isTrue = true;
+    var number = 10;
+    var string = 'Masud';
+    var boolean = true;
+    var undefined;
+    var something = null;
 ```
 
 <b> But in non-primitive Data Type, value not directly stored. It save the reference of value. So these types of data called Object. They have properties. </b>
