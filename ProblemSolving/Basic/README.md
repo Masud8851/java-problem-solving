@@ -16,11 +16,11 @@
 
 ```
 abstract ,	        arguments,	        await*,	           boolean,
-break,	            byte,   	        case,	         catch,
+break,	                byte,   	        case,	         catch,
 char,   	        class*, 	        const,	          continue,
 debugger,	        default,   	        delete,	           do,
 double, 	        else,   	        enum*,	          eval,
-export*,            extends*,	        false,	          final,
+export*,                extends*,	        false,	          final,
 finally,	        float,  	        for,	            function,
 goto,   	        if,     	        implements, 	    import*,
 in,             	instanceof, 	    int,        	    interface,
