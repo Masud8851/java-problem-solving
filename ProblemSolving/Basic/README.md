@@ -76,6 +76,6 @@ volatile,       	while,      	        with,       	        yield
 <b> Comment </b>
 
 <ol>
-<li> Single Line Comment `//single line comment` </li>
+<li> Single Line Comment ```//single line comment``` </li>
 <li> Multiple Line Comment `/* Multiple line  <br> comment*/ `</li>
 </ol>
