@@ -13,6 +13,7 @@
 - JS Reserved words
 - Concatination
 - typeof
+- Data change of a variable
 
 <b>In JavaScript you cannot use these reserved words as variables, labels, or function names:</b>
 

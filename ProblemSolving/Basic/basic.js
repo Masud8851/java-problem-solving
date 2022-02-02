@@ -5,3 +5,8 @@ console.log("Basic JavaScript");
 var a;
 a = "Masud";
 console.log(a + " is a boy");
+
+// data change of a variable
+var preName = "Musfique";
+preName = "Tamim";
+console.log(preName);
