@@ -300,3 +300,20 @@ const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 console.log(person.firstName); /*Dot Notation*/
 console.log(person["age"]); /*Bracket Notation*/
 ```
+
+<h5>Function Declaration</h5>
+<b> We can define it in two ways. </b>
+
+```
+function  functionName(){
+    //Statement
+}
+```
+
+<b>Or</b>
+
+```
+var functionName = function (){
+    //Statement
+}
+```
