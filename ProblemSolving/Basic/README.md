@@ -88,7 +88,7 @@ volatile,       	while,      	        with,       	        yield
 - Conditional Statement
 - Loop
 - Array
-- Objecy
+- Object
 - Function
 
 <b>There are different types of opeartor. Such as -</b>
