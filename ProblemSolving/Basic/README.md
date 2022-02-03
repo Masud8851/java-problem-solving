@@ -301,7 +301,7 @@ console.log(person.firstName); /*Dot Notation*/
 console.log(person["age"]); /*Bracket Notation*/
 ```
 
-<h5>Function Declaration</h5>
+<h3>Function Declaration</h3>
 <b> We can define it in two ways. </b>
 
 ```
