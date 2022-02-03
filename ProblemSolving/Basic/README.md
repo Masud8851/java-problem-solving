@@ -192,3 +192,111 @@ object["foo"] = object["foo"] + 1;
 ```
 
 <p>Bracket notation is more expressive than dot notation because it allows a variable to specify all or part of the property name. This is possible because the JavaScript interpreter automatically converts the expression within the square brackets to a string, and then retrieves the corresponding property. The following example shows how property names can be created on the fly using bracket notation. In the example, the property name `foo` is created by concatenating the contents of variable `f`, with the string `"oo"`.</p>
+
+```
+var f = "f";
+
+object[f + "oo"] = "bar";
+```
+
+<p>Bracket notation also allows property names to contain characters that are forbidden in dot notation. For example, the following statement is completely legal in bracket notation. However, if you tried to create the same property name in dot notation, you would encounter a syntax error.</p>
+
+```
+object["!@#$%^&*()."] = true;
+```
+
+<h5>Accessing Nested Properties</h5>
+
+<p>Properties of nested objects can be accessed by chaining dot and/or bracket references together. For example, the following object contains a nested object named `baz`, which contains another object named `foo`, which has a property named `bar` that holds the value five.</p>
+
+```
+var object = {
+  baz: {
+    foo: {
+      bar: 5
+    }
+  }
+};
+```
+
+<p>The following expressions access the nested property, `bar`. The first expression uses dot notation, while the second expression uses square bracket notation. The third expression combines both notations to achieve the same result.</p>
+
+```
+object.baz.foo.bar;
+object["baz"]["foo"]["bar"];
+object["baz"].foo["bar"];
+```
+
+<p>Expressions like the ones shown in the previous example can cause performance to suffer if used improperly. Evaluating each dot or bracket expression takes time. If the same property is used multiple times, then it makes more sense to access the property once, and then store the value in a local variable for all future uses. The following example uses `bar` many times within a loop. However, instead of wasting time computing the same value over and over, `bar` is stored in a local variable.</p>
+
+```
+var bar = object.baz.foo.bar;
+var count = 0;
+
+for (var i = 0; i < 100000; i++) {
+  count += bar;
+  // better than count += object.baz.foo.bar;
+}
+```
+
+<h5>Functions as Methods</h5>
+
+<p>When a function is used as an object property, it is called a method. Like properties, methods can also be specified in object literal notation. The following example shows how this is accomplished.</p>
+
+```
+var object = {
+  sum: function(foo, bar) {
+    return foo + bar;
+  }
+};
+```
+
+<p>Methods can also be invoked using dot and bracket notation. The following example invokes the `sum()` method from the previous example using both notations.</p>
+
+```
+object.sum(1, 2);
+object["sum"](1, 2);
+```
+
+<h5>Adding Properties and Methods</h5>
+
+<p>Object literal notation is useful for creating new objects, but it cannot add properties or methods to existing objects. Fortunately, adding new data to an object is as simple as creating an assignment statement. The following example creates an empty object. Two properties, `foo` and `bar`, and a method, `baz`, are then added using assignment statements. Note, that this example uses dot notation, but bracket notation would work equally as well.</p>
+
+```
+var object = {};
+
+object.foo = 1;
+object.bar = null;
+object.baz = function() {
+  return "hello from baz()";
+};
+```
+
+<h5>JavaScript Objects</h5>
+
+<p>In real life, a car is an object. <br>
+
+A car has properties like weight and color, and methods like start and stop:</p>
+
+```
+Object                      Properties                          Methods
+-----------------------------------------------------------------------
+                            car.name = Fiat                     car.start()
+
+                            car.model = 500                     car.drive()
+Car
+                            car.weight = 850kg                  car.brake()
+
+                            car.color = white	                car.stop()
+
+```
+
+<p>All cars have the same properties, but the property values differ from car to car. <br>
+
+All cars have the same methods, but the methods are performed at different times.</p>
+
+```
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+console.log(person.firstName); /*Dot Notation*/
+console.log(person["age"]); /*Bracket Notation*/
+```
