@@ -166,3 +166,24 @@ if...else
 if...else if
 switch
 ```
+
+<b> Loop</b>
+
+```
+for
+do...while
+while
+break
+continue
+```
+
+<h5>Accessing Properties</h5>
+<b>JavaScript provides two notations for accessing object properties. The first, and most common, is known as dot notation. Under dot notation, a property is accessed by giving the host object’s name, followed by a period (or dot), followed by the property name.The following example shows how dot notation is used to read from and write to a property. If `object.foo` initially held the value one, then its value would become two after executing this statement. Note that if `object.foo` did not already have a value, then it would be `undefined`. </b>
+```
+object.foo = object.foo + 1;
+```
+<b>The alternate syntax for accessing object properties is known as bracket notation. In bracket notation, the object name is followed by a set of square brackets. Inside the square brackets, the property name is specified as a string. The previous example of dot notation has been rewritten below to use bracket notation. While the code may look different, it is functionally equivalent to the previous example.</b>
+```
+object["foo"] = object["foo"] + 1;
+```
+<b>Bracket notation is more expressive than dot notation because it allows a variable to specify all or part of the property name. This is possible because the JavaScript interpreter automatically converts the expression within the square brackets to a string, and then retrieves the corresponding property. The following example shows how property names can be created on the fly using bracket notation. In the example, the property name `foo` is created by concatenating the contents of variable `f`, with the string `"oo"`.</b>
