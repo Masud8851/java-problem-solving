@@ -112,3 +112,57 @@ volatile,       	while,      	        with,       	        yield
 -- decrement
 %  modulus
 ```
+
+<b> Cpmparison operator which return `true` or `false`.</b>
+
+```
+== equal equal
+!= not equal
+> greater than
+< less than
+>= grater than or equal
+<= less than or equal
+```
+
+<b> Although the `most used` comparison operator </b>
+
+```
+===
+!==
+```
+
+<b>Both they check assign value and data types of them </b>
+
+<b> Logical operator `three` types. </b>
+
+```
+&& and
+|| or
+! not
+```
+
+<b> Assignment operator</b>
+
+```
+=
++=
+-=
+*=
+/=
+%=
+```
+
+<b> Conditional/Ternary operator</b>
+
+```
+? :
+```
+
+<b> Conditional Statement</b>
+
+```
+if
+if...else
+if...else if
+switch
+```
