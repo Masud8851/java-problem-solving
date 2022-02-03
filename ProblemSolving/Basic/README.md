@@ -79,3 +79,36 @@ volatile,       	while,      	        with,       	        yield
 <li> Single Line Comment  </li>
 <li> Multi-Line Comment </li>
 </ol>
+
+<hr>
+
+## Day 2 || Date : 3/2/22
+
+- Operator
+- Conditional Statement
+- Loop
+- Array
+- Objecy
+- Function
+
+<b>There are different types of opeartor. Such as -</b>
+
+<ol>
+    <li>Arithmetic</li>
+    <li>Comparison</li>
+    <li>Logical/Relational</li>
+    <li>Assignment</li>
+    <li>Conditional/Ternary</li>
+</ol>
+
+<b> Arithmetic operator</b>
+
+```
++ use to addition
+- use to subtraction
+* use to multiplication
+/ use to devide
+++ increment
+-- decrement
+%  modulus
+```
