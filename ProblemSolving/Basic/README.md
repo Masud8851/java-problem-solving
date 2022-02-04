@@ -443,3 +443,37 @@ function globalScope (){
 globalScope();
 console.log('Inside a function', global)
 ```
+
+<h5>Automatically Global Variable</h5>
+<p>It will be access from anywhere.</p>
+
+```
+function autoGlobalVar (){
+  name = 'Masudur Rahman';
+}
+
+autoGlobalVar();
+```
+
+<h5>Lexical Scope</h5>
+
+```
+function parentFunction (){
+  // Some Code Here
+  function childFunction () {
+    // Some Code Here
+  }
+  childFunction ()
+}
+```
+
+```
+function parentFunction (){
+  var a = 6;
+  function childFunction () {
+    var b = 4;
+    console.log('Sum : ' + (a+b));
+  }
+  childFunction ()
+}
+```
