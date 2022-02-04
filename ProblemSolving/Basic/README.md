@@ -397,4 +397,5 @@ function someFunction (params) {
 }
 ```
 
-`DRY` full from `Don't Reapeat Yourself`
+<h3>DRY</h3>
+`DRY` full from `Don't Reapeat Yourself`.
