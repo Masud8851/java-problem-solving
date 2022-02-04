@@ -319,3 +319,82 @@ var functionName = function (){
     //Statement
 }
 ```
+
+## Day 3 || Date : 4/2/22
+
+- Statement and Expression
+- DRY Principal
+- ECMAScript
+- Hoisting
+- Scope
+- Closure
+- IIFE - Immediately Invoked Functiuon Expressions
+
+<p>The main difference between `Expression` and `Statement` is `Expression` <b>produce value</b> but `Statement` <b>take action</b></p>
+<p>Example of Expression- </p>
+
+```
+10 + 10
+2 + 2
+1 + 2 + 3 * (8**3) - Math.sqrt(4.0)
+Math.min(2, 22)
+Math.max(3, 92)
+Math.round(2.52)
+'Masud'
+'Mim'
+'Masudur' + ' ' + 'Rahman'
+null
+true
+false
+2
+4
+5.0
+```
+
+<p>But when we `assign those expressions into a variable` those `will be statement`. Normally it take some actions like loop, conditional. Example of Statement- </p>
+
+```
+var assignValue = 10 + 10;
+
+if(10<20)
+{
+  console.log('True'); //it's a expression
+}
+else{
+  console.log('False'); //it's a expression
+}
+```
+
+<b>Again</b>
+
+```
+for(expressions){
+  // Some code here
+}
+
+do {
+  // Some code here
+} while (expressions) {
+  // Some code here
+}
+```
+
+<h5>Function Expression</h5>
+
+<p>`Note` When we assign a function into a variable we call it statement. Such as -</p>
+
+```
+var someFunction = function(params) {
+  // Some code here
+}
+```
+
+<h5>Function Statement</h5>
+
+```
+function someFunction (params) {
+  // Some code here
+}
+```
+
+<h3>`DRY` full from `Don't Reapeat Yourself`</h3>
