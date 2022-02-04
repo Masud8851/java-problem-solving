@@ -381,7 +381,7 @@ do {
 
 <h5>Function Expression</h5>
 
-<p>`Note` When we assign a function into a variable we call it statement. Such as -</p>
+`Note` When we assign a function into a variable we call it statement. Such as -
 
 ```
 var someFunction = function(params) {
