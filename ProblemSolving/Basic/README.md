@@ -411,3 +411,13 @@ welcomeMsg ('Rafiq');
 welcomeMsg ('Rifat');
 welcomeMsg ('Musfique');
 ```
+
+<h3>Scope</h3>
+
+<p>Two types scope in JS</p>
+`
+<ol>
+<li>Local Scope</li>
+<li>Global Scope</li>
+</ol>
+`
