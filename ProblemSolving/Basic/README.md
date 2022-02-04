@@ -400,3 +400,14 @@ function someFunction (params) {
 <h3>DRY</h3>
 
 `DRY` full from `Don't Reapeat Yourself`.
+
+```
+function welcomeMsg (name) {
+  console.log('Welcome Mr. ' + name);
+}
+
+welcomeMsg ('Masud');
+welcomeMsg ('Rafiq');
+welcomeMsg ('Rifat');
+welcomeMsg ('Musfique');
+```
