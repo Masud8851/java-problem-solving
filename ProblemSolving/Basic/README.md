@@ -420,3 +420,26 @@ welcomeMsg ('Musfique');
 <li>Local Scope</li>
 <li>Global Scope</li>
 </ol>
+
+<h5>Local Scope</h5>
+
+```
+function localScope (){
+  var local = 'It is local scope';
+  console.log(local);
+}
+
+localScope();
+```
+
+<h5>Global Scope</h5>
+
+```
+var global = 'It is global scope';
+function globalScope (){
+  console.log('Inside a function I am a' + global + 'function');
+}
+
+globalScope();
+console.log('Inside a function', global)
+```
