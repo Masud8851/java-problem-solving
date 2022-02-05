@@ -489,5 +489,8 @@ function parentFunction (){
 <li> Data change of a variable</li>
 <li> Single and Multi-line comments</li>
 <li> Operator (Arithmetic operator, Comparism operator, 3 types of Logical operator, Assignment operator, Conditional/Ternary operator, Other operator)</li>
-<li> Conditional Statement</li>
+<li> Conditional Statement (if statement, if...else statement, if...else if statement), Nesting Conditional Statement, Switch statement</li>
+<li> Loop (for statement, do...while statement, while statement, break statement, continue statement)</li>
+<li> Item add to the end of an array - arr.push()</li>
+<li> Item remove to the end of an array - arr.pop()</li>
 </ul>
