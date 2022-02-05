@@ -477,3 +477,11 @@ function parentFunction (){
   childFunction ()
 }
 ```
+
+## Day 4 || Date : 4/2/22
+
+<p>Revised the previous three day's topics.<p>
+
+<ul>
+<li></li>
+</ul>
