@@ -480,7 +480,7 @@ function parentFunction (){
 
 ## Day 4 || Date : 5/2/22
 
-<p>Revised the previous three day's topics.<p>
+<p>Revised the basic Js topics of the previous three days.<p>
 
 <ul>
 <li> Variable Declaration and validity</li>
