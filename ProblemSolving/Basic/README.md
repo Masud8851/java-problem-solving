@@ -486,5 +486,8 @@ function parentFunction (){
 <li> Variable Declaration and validity</li>
 <li> Primitive (Number, String, Boolean, undefined, null ) and Non-primitive (Array, Object, Function) - two data types</li>
 <li> Concatenation and typeof</li>
-<li> Concatenation</li>
+<li> Data change of a variable</li>
+<li> Single and Multi-line comments</li>
+<li> Operator (Arithmetic operator, Comparism operator, 3 types of Logical operator, Assignment operator, Conditional/Ternary operator, Other operator)</li>
+<li> Conditional Statement</li>
 </ul>
