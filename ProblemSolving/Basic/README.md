@@ -483,5 +483,8 @@ function parentFunction (){
 <p>Revised the previous three day's topics.<p>
 
 <ul>
-<li></li>
+<li> Variable Declaration and validity</li>
+<li> Primitive (Number, String, Boolean, undefined, null ) and Non-primitive (Array, Object, Function) - two data types</li>
+<li> Concatenation and typeof</li>
+<li> Concatenation</li>
 </ul>
