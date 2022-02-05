@@ -491,6 +491,16 @@ function parentFunction (){
 <li> Operator (Arithmetic operator, Comparism operator, 3 types of Logical operator, Assignment operator, Conditional/Ternary operator, Other operator)</li>
 <li> Conditional Statement (if statement, if...else statement, if...else if statement), Nesting Conditional Statement, Switch statement</li>
 <li> Loop (for statement, do...while statement, while statement, break statement, continue statement)</li>
-<li> Item add to the end of an array - arr.push()</li>
+<li> Item add to the end of an array - arr.push('x')</li>
 <li> Item remove to the end of an array - arr.pop()</li>
+<li> Item remove to the first of an array - arr.shift()</li>
+<li> Item add to the first of an array - arr.unshift('x')</li>
+<li> Item index of an array - arr.indexOf('x')</li>
+<li> Item remove through index of an array - arr.splice(1,2) / arr.splice(3)</li>
+<li> Object, Item access from an object - two types - dot notation( x.y ) & brackets  notation x ['y']</li>
+<li> Function , function definition & call</li>
+<li> Statement and Expression</li>
+<li> Hoisting</li>
+<li> Scope (local Scope & Global Scope), Automatically Gobal Variable, Lexical Scoping</li>
+<li> ECMAScript</li>
 </ul>
