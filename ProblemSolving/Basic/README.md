@@ -502,5 +502,6 @@ function parentFunction (){
 <li> Statement and Expression</li>
 <li> Hoisting</li>
 <li> Scope (local Scope & Global Scope), Automatically Gobal Variable, Lexical Scoping</li>
-<li> ECMAScript</li>
+<li> Closure</li>
+<li> IIFE - Immediately Invoked Function Expresssion</li>
 </ul>
