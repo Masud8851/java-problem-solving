@@ -506,5 +506,6 @@ function parentFunction (){
 <li> IIFE - Immediately Invoked Function Expresssion</li>
 </ul>
 
-## Day 5 || Date : 5/2/22 
-<h3> Some basic problem solving day with JavaScript<h3> 
+## Day 5 || Date : 5/2/22
+
+<h3>Did some basic problem solving with JavaScript<h3>
